@@ -1,0 +1,1 @@
+# Purpose: This agent will focus on generating tests for edge cases and unusual scenarios to improve test coverage.

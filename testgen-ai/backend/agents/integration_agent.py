@@ -1,0 +1,1 @@
+# Purpose: This agent will generate integration tests to ensure different parts of the system work together correctly.
