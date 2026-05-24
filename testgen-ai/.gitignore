@@ -1,4 +1,6 @@
 .env
+.qa-agent.yaml
+tests/generated/
 __pycache__/
 *.pyc
 node_modules/

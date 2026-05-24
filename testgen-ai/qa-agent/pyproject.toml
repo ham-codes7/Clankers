@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.backends.legacy:build"
+
+[project]
+name = "qa-agent"
+version = "0.1.0"
+dependencies = [
+    "typer",
+    "rich", 
+    "anthropic",
+    "pydantic",
+    "pydantic-settings",
+    "prance",
+    "playwright",
+    "python-dotenv",
+    "httpx",
+    "fastapi",
+    "uvicorn",
+    "langgraph",
+    "langchain-google-genai",
+    "langchain-core"
+]
+
+[project.scripts]
+qa-agent = "qa_agent.cli:app"
+
+[tool.setuptools.packages.find]
+where = ["src"]
